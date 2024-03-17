@@ -208,7 +208,7 @@ function ClassicHTML(UserName,Type,link) {
     <html lang="en" >
         <head>
         <meta charset="UTF-8">
-        <title>R1zaX</title>
+        <title>TNT</title>
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
@@ -1210,7 +1210,7 @@ function setUserNameAndPassWord() {
     });
     let localbrand2 = JSON.parse(readFileSync('./node_modules/fca-rqzax/package.json')).version;
     console.clear();
-    console.log(figlet.textSync('R1zaX', {font: 'ANSI Shadow',horizontalLayout: 'default',verticalLayout: 'default',width: 0,whitespaceBreak: true }));
+    console.log(figlet.textSync('TNT', {font: 'ANSI Shadow',horizontalLayout: 'default',verticalLayout: 'default',width: 0,whitespaceBreak: true }));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Operating System: " + chalk.bold.red(os.type()));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Machine Version: " + chalk.bold.red(os.version()));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Fca Version: " + chalk.bold.red(localbrand2) + '\n');
